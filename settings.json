@@ -1,18 +1,109 @@
 {
-  "extensions.autoCheckUpdates": false,
-  "extensions.autoUpdate": false,
-  "update.mode": "none",
-  "editor.fontFamily": "JetBrains Mono",
-  "editor.fontSize": 13,
-  "editor.trimAutoWhitespace": true,
-  "files.insertFinalNewline": true,
-  "workbench.startupEditor": "none",
-  "workbench.colorTheme": "One Dark Pro Darker",
-  "workbench.productIconTheme": "fluent-icons",
-  "workbench.iconTheme": "material-icon-theme",
-  "terminal.integrated.defaultProfile.windows": "Command Prompt",
-  "redhat.telemetry.enabled": false,
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+	"window.openFilesInNewWindow": "off",
+	"editor.tabSize": 2,
+
+	// Wrapping
+	"editor.wordWrap": "off",
+
+	"editor.insertSpaces": false,
+	"editor.useTabStops": true,
+	"editor.smoothScrolling": true,
+	"editor.multiCursorModifier": "ctrlCmd",
+
+	// Rename tags
+	"editor.linkedEditing": true,
+
+	// Auto complete speed show popup
+	"editor.quickSuggestionsDelay": 0,
+
+	// Appearance
+	"editor.bracketPairColorization.enabled": false,
+	"editor.glyphMargin": false,
+	"editor.scrollbar.horizontal": "hidden",
+	"editor.scrollbar.vertical": "hidden",
+	"workbench.productIconTheme": "fluent-icons",
+	"window.density.editorTabHeight": "compact",
+	"workbench.activityBar.location": "top",
+	"workbench.colorTheme": "Bearded Theme HC Minuit",
+	"window.commandCenter": false,
+	"workbench.layoutControl.enabled": false,
+	"workbench.iconTheme": "catppuccin-perfect-sequoia",
+
+	// Font
+	"editor.fontFamily": "JetBrains Mono",
+	"editor.fontLigatures": true,
+	"editor.fontSize": 14,
+	"editor.inlayHints.fontFamily": "JetBrains Mono",
+
+	// Cursor
+	"editor.cursorBlinking": "expand",
+	"editor.cursorStyle": "line-thin",
+	"editor.cursorSmoothCaretAnimation": "explicit",
+
+	// Explorer
+	"explorer.confirmDelete": false,
+	"explorer.compactFolders": false,
+	"explorer.confirmDragAndDrop": false,
+
+	"workbench.editor.tabSizing": "shrink",
+	"workbench.startupEditor": "newUntitledFile",
+
+	// Terminal
+	"terminal.integrated.defaultProfile.windows": "Command Prompt",
+	"terminal.integrated.fontFamily": "JetBrains Mono",
+	"terminal.integrated.fontSize": 12,
+	"terminal.integrated.tabs.enabled": false,
+
+	// Emmet
+	"emmet.triggerExpansionOnTab": true,
+
+	// Formatting
+	"prettier.useTabs": true,
+	"editor.formatOnSave": true,
+	"editor.codeActionsOnSave": {
+		"source.organizeImports": "explicit"
+	},
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.inlineSuggest.enabled": true,
+	"[php]": {
+		"editor.defaultFormatter": "DEVSENSE.intelli-php-vscode"
+	},
+
+	// Breadcrumbs
+	"breadcrumbs.icons": false,
+	"breadcrumbs.showKeys": false,
+	"breadcrumbs.showFiles": false,
+	"breadcrumbs.symbolPath": "off",
+	"breadcrumbs.showArrays": false,
+	"breadcrumbs.showEvents": false,
+	"breadcrumbs.showFields": false,
+	"breadcrumbs.showClasses": false,
+	"breadcrumbs.showMethods": false,
+	"breadcrumbs.showBooleans": false,
+	"breadcrumbs.showFunctions": false,
+	"breadcrumbs.showConstants": false,
+	"breadcrumbs.showEnumMembers": false,
+	"breadcrumbs.showConstructors": false,
+
+	// Spell checker
+	"cSpell.enabled": true,
+	"cSpell.language": "en,ru",
+	"cSpell.userWords": [],
+
+	"editor.unicodeHighlight.allowedCharacters": {
+		"а": true,
+		"с": true,
+		"Т": true,
+		"б": true,
+		"е": true
+	},
+
+	"editor.hideCursorInOverviewRuler": true,
+	"git.enableSmartCommit": true,
+
+	// Others
+	"security.workspace.trust.untrustedFiles": "open", // Opens untrusted files
+	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+	"window.confirmBeforeClose": "keyboardOnly",
+	"editor.gotoLocation.multipleDefinitions": "goto"
 }
