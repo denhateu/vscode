@@ -33,5 +33,6 @@
 
   // Others
   "security.workspace.trust.untrustedFiles": "open", // Opens untrusted files
-  "window.confirmBeforeClose": "keyboardOnly"
+  "window.confirmBeforeClose": "keyboardOnly",
+  "git.confirmSync": false
 }
